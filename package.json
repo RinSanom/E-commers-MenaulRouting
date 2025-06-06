@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@tailwindcss/cli": "^4.1.8",
+    "aos": "^2.3.4",
+    "tailwindcss": "^4.1.8",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "dev": "concurrently \"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch\" \"npx serve .\" \"tsc --watch\""
+  },
+  "devDependencies": {
+    "@types/aos": "^3.0.7",
+    "concurrently": "^9.1.2"
+  }
+}
