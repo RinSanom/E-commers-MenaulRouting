@@ -3,7 +3,7 @@
     "@tailwindcss/cli": "^4.1.8",
     "aos": "^2.3.4",
     "tailwindcss": "^4.1.8",
-    "typescript": "^5.8.3"
+    "typescript": "^5.9.3"
   },
   "scripts": {
     "dev": "concurrently \"npx @tailwindcss/cli -i ./src/input.css -o ./src/output.css --watch\" \"npx serve .\" \"tsc --watch\""
